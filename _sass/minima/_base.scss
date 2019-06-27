@@ -205,8 +205,20 @@ pre {
  * Education
  */
 .education {
+  h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
   h3 {
     margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  
+  h4 {
+    font-size: 15px;
+    margin-top: 5px;
     margin-bottom: 0px;
   }
 
