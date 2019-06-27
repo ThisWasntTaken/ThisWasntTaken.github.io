@@ -20,7 +20,7 @@ comments: true
     {{ content }}
   </div>
 
-  {%- if site.disqus_shortname -%}
+  {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
