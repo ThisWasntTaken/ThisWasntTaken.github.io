@@ -5,7 +5,7 @@ to:    Present
 ---
 
 Integrated Master of Technology in Computer Science Engineering, 7th semester.<br>
-CGPA over 6 semesters - 3.89 / 4.0 - <a target="_blank" rel="noopener noreferrer" href="{{site.url}}{{site.baseurl}}/assets/pdf/transcript.pdf">Transcript</a>
+CGPA over 6 semesters - 3.88 / 4.0 - <a target="_blank" rel="noopener noreferrer" href="{{site.url}}{{site.baseurl}}/assets/pdf/transcript.pdf">Transcript</a>
 
 <h1>Course Work</h1>
 <h4>Theory and Systems</h4>
