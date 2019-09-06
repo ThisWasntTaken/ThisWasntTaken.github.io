@@ -262,13 +262,14 @@ pre {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  margin: auto;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   cursor: pointer;
   background-color: white;
   color: black;
-  border: 2px solid black;
+  border: 3px solid black;
+  font-weight: bold;
   border-radius: 30px;
 }
 
