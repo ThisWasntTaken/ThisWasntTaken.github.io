@@ -10,4 +10,4 @@ I am a 4th year student pursuing an Integrated Master of Technology degree in Co
 
 I am a member of the Computational Science Laboratory at IIIT-B where I hope to gain research Experience. My areas of interest are Data Science and Computer Vision.
 
-Download my <a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf">Resume</a>.
+<a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button">Download Resume</button></a>
