@@ -7,6 +7,7 @@ permalink: /projects/
 {% for project in site.projects %}
   <div class="project">
       <h3>{{project.title}}</h3>
+      {{ project.from }} - {{ project.to }}<br>
       {% if project.role %}
         <i>{{ project.role }}</i>
       {% endif %}

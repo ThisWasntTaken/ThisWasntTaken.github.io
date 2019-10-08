@@ -1,6 +1,8 @@
 ---
 title: Image Processing Tookit - C++
-role: 3rd Semester - ESS210; Programming 2
+role: 3rd Semester - Programming course
+from: Oct 2017
+to: Dec 2017
 code: https://github.com/ThisWasntTaken/Image-Processing-Toolkit-C-Project
 report:
 link:

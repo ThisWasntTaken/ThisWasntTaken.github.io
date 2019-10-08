@@ -1,6 +1,8 @@
 ---
 title: CodeForces Rating Predictor
-role: 5th Semester - GEN511; Machine Learning
+role: 5th Semester - Machine Learning course
+from: Sep 2018
+to: Nov 2018
 code:
 report: ../assets/pdf/codeforcesReport.pdf
 link:

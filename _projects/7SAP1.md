@@ -1,6 +1,8 @@
 ---
 title: Simple As Possible - 1 Computer
-role: 2nd Semester - ESS102; Digital Design
+role: 2nd Semester - Digital Design course
+from: Mar 2017
+to: May 2017
 code: https://github.com/ThisWasntTaken/SAP1Computer
 report:
 link:
