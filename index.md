@@ -8,7 +8,7 @@ title: About
 
 I am a 4th year student pursuing an Integrated Master of Technology degree in Computer Science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology - Bangalore (IIIT-B)</a>.
 
-I am a member of the Computational Science Laboratory at IIIT-B where I hope to gain research Experience. My areas of interest are Data Science and Computer Vision.
+My areas of interest are in the domain Data Science, specifically Deep Learning and Computer Vision.
 
 <a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button">Download Resume</button></a>
 

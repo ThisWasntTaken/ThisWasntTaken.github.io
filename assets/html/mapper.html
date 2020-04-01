@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1366;
+            height: 768;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#ffec00", "id": 0, "label": " ", "shape": "dot", "size": 6.346153846153846, "title": "Contains 165 elements"}, {"color": "#ff8900", "id": 1, "label": " ", "shape": "dot", "size": 39.30769230769231, "title": "Contains 1022 elements"}, {"color": "#ffd200", "id": 2, "label": " ", "shape": "dot", "size": 15.076923076923077, "title": "Contains 392 elements"}, {"color": "#ffd400", "id": 3, "label": " ", "shape": "dot", "size": 14.5, "title": "Contains 377 elements"}, {"color": "#ffdf00", "id": 4, "label": " ", "shape": "dot", "size": 10.884615384615385, "title": "Contains 283 elements"}, {"color": "#ffde00", "id": 5, "label": " ", "shape": "dot", "size": 11.192307692307692, "title": "Contains 291 elements"}, {"color": "#ffe300", "id": 6, "label": " ", "shape": "dot", "size": 9.576923076923077, "title": "Contains 249 elements"}, {"color": "#ff6600", "id": 7, "label": " ", "shape": "dot", "size": 50.61538461538461, "title": "Contains 1316 elements"}, {"color": "#ffe200", "id": 8, "label": " ", "shape": "dot", "size": 9.692307692307692, "title": "Contains 252 elements"}, {"color": "#ffe300", "id": 9, "label": " ", "shape": "dot", "size": 9.346153846153847, "title": "Contains 243 elements"}, {"color": "#ff0000", "id": 10, "label": " ", "shape": "dot", "size": 84.34615384615384, "title": "Contains 2193 elements"}, {"color": "#ffe400", "id": 11, "label": " ", "shape": "dot", "size": 9.038461538461538, "title": "Contains 235 elements"}, {"color": "#ff9d00", "id": 12, "label": " ", "shape": "dot", "size": 32.65384615384615, "title": "Contains 849 elements"}, {"color": "#ffe400", "id": 13, "label": " ", "shape": "dot", "size": 9.23076923076923, "title": "Contains 240 elements"}, {"color": "#ff9900", "id": 14, "label": " ", "shape": "dot", "size": 33.76923076923077, "title": "Contains 878 elements"}, {"color": "#ffe300", "id": 15, "label": " ", "shape": "dot", "size": 9.423076923076923, "title": "Contains 245 elements"}, {"color": "#ff1c00", "id": 16, "label": " ", "shape": "dot", "size": 75.38461538461539, "title": "Contains 1960 elements"}, {"color": "#ffe300", "id": 17, "label": " ", "shape": "dot", "size": 9.5, "title": "Contains 247 elements"}, {"color": "#ffe200", "id": 18, "label": " ", "shape": "dot", "size": 9.884615384615385, "title": "Contains 257 elements"}, {"color": "#ffe100", "id": 19, "label": " ", "shape": "dot", "size": 10.192307692307692, "title": "Contains 265 elements"}, {"color": "#ffe000", "id": 20, "label": " ", "shape": "dot", "size": 10.538461538461538, "title": "Contains 274 elements"}, {"color": "#ffdd00", "id": 21, "label": " ", "shape": "dot", "size": 11.346153846153847, "title": "Contains 295 elements"}, {"color": "#ffda00", "id": 22, "label": " ", "shape": "dot", "size": 12.384615384615385, "title": "Contains 322 elements"}, {"color": "#ffda00", "id": 23, "label": " ", "shape": "dot", "size": 12.461538461538462, "title": "Contains 324 elements"}, {"color": "#ff7d00", "id": 24, "label": " ", "shape": "dot", "size": 43.11538461538461, "title": "Contains 1121 elements"}, {"color": "#ffad00", "id": 25, "label": " ", "shape": "dot", "size": 27.153846153846153, "title": "Contains 706 elements"}]);
+        edges = new vis.DataSet([{"color": "#ffdd00", "from": 0, "to": 1}, {"color": "#ffdd00", "from": 1, "to": 2}, {"color": "#ffdd00", "from": 1, "to": 3}, {"color": "#ffdd00", "from": 2, "to": 5}, {"color": "#ffdd00", "from": 3, "to": 4}, {"color": "#ffdd00", "from": 4, "to": 8}, {"color": "#ffdd00", "from": 5, "to": 6}, {"color": "#ffdd00", "from": 6, "to": 9}, {"color": "#ffdd00", "from": 7, "to": 10}, {"color": "#ffdd00", "from": 8, "to": 11}, {"color": "#ffdd00", "from": 9, "to": 15}, {"color": "#ffdd00", "from": 10, "to": 12}, {"color": "#ffdd00", "from": 10, "to": 14}, {"color": "#ffdd00", "from": 11, "to": 13}, {"color": "#ffdd00", "from": 12, "to": 16}, {"color": "#ffdd00", "from": 13, "to": 17}, {"color": "#ffdd00", "from": 14, "to": 16}, {"color": "#ffdd00", "from": 15, "to": 18}, {"color": "#ffdd00", "from": 16, "to": 21}, {"color": "#ffdd00", "from": 17, "to": 19}, {"color": "#ffdd00", "from": 18, "to": 20}, {"color": "#ffdd00", "from": 19, "to": 22}, {"color": "#ffdd00", "from": 20, "to": 23}, {"color": "#ffdd00", "from": 22, "to": 24}, {"color": "#ffdd00", "from": 23, "to": 24}, {"color": "#ffdd00", "from": 24, "to": 25}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {"nodes": {"shadow": {"enabled": true}}, "edges": {"color": {"inherit": true}, "smooth": false}, "physics": {"barnesHut": {"centralGravity": 0, "springLength": 50, "springConstant": 0.01, "avoidOverlap": 0.5}, "minVelocity": 0.75}};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
