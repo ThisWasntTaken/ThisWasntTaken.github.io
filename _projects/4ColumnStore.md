@@ -1,6 +1,6 @@
 ---
 title: A Column Store database
-role: 8th Semester - Data Modelling course
+role: 8th Semester - Data Modeling course
 from: Apr 2020
 to: May 2020
 code: https://github.com/satu0king/Column-Store
