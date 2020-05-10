@@ -11,5 +11,3 @@ I am a 4th year student pursuing an Integrated Master of Technology degree in Co
 My areas of interest are in the domain Data Science, specifically Deep Learning and Computer Vision.
 
 <a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button">Download Resume</button></a>
-
-<b>I am actively searching for internship opportunities for the summer of 2020 (May - July, 2020).</b>
