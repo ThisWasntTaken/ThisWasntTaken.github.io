@@ -5,7 +5,7 @@ to:    Present
 ---
 
 Integrated Master of Technology in Computer Science, 8th semester.<br>
-CGPA over 7 semesters - 3.9 / 4.0 - <a target="_blank" rel="noopener noreferrer" href="{{site.url}}{{site.baseurl}}/assets/pdf/transcript.pdf">Transcript</a>
+CGPA over 8 semesters - 3.91 / 4.0 - <a target="_blank" rel="noopener noreferrer" href="{{site.url}}{{site.baseurl}}/assets/pdf/transcript.pdf">Transcript</a>
 
 <h1><b>Course Work</b></h1>
 <h4>Theory and Systems</h4>
