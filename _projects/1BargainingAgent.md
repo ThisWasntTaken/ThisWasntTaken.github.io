@@ -2,7 +2,7 @@
 title: E-Commerce Bargaining Agent
 role: 7th Semester - Artificial Intelligence course
 from: Aug 2019
-to: Jul 2020
+to: Dec 2019
 code:
 report:
 link:
