@@ -8,7 +8,7 @@ title: About
 
 I am a 5th year student pursuing an Integrated Master of Technology degree in Computer Science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology - Bangalore (IIIT-B)</a>.
 
-My areas of interest are in the domain Data Science, specifically application of techniques in Machine Learning to problems in healthcare, privacy, and the natural sciences.
+My areas of interest are in the domain of Data Science, specifically application of techniques in Machine Learning to problems in healthcare, privacy, and the natural sciences.
 
 I am currently involved in a capstone project under the guidance of <a href="https://www.iiitb.ac.in/faculty/t-k-srikanth">Prof. T K Srikanth</a> that aims to create a privacy-aware dynamic activity-based access control mechanism for sharing electronic health data in a distributed ecosystem.
 
