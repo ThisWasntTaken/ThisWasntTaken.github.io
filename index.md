@@ -6,8 +6,10 @@ layout: home
 title: About
 ---
 
-I obtained my Integrated Master of Technology degree in Computer Science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology - Bangalore (IIIT-B)</a>.
+I am a graduate student pursuing a Master's degree in Computer Science at <a target="_blank" rel="noopener noreferrer" href="https://www.purdue.edu/">Purdue University. Before that, I obtained my Integrated Master of Technology degree in Computer Science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology - Bangalore (IIIT-B)</a>.
 
-My areas of interest are in the domain of Data Science, specifically application of techniques in Machine Learning to problems in healthcare, privacy, and the natural sciences.
+My areas of interest are in the domain of Data Science, specifically in Machine Learning and its related fields.
+
+I am looking for internship opportunities for the summer of 2023 and for full-time positions after I graduate.
 
 <a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button">Download Resume</button></a>
