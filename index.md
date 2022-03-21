@@ -6,7 +6,7 @@ layout: home
 title: About
 ---
 
-I am a graduate student pursuing a Master's degree in Computer Science at <a target="_blank" rel="noopener noreferrer" href="https://www.purdue.edu/">Purdue University. Before that, I obtained my Integrated Master of Technology degree in Computer Science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology - Bangalore (IIIT-B)</a>.
+I am a graduate student pursuing a Master's degree in Computer Science at <a target="_blank" rel="noopener noreferrer" href="https://www.purdue.edu/">Purdue University</a>. Before that, I obtained my Integrated Master of Technology degree in Computer Science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology - Bangalore (IIIT-B)</a>.
 
 My areas of interest are in the domain of Data Science, specifically in Machine Learning and its related fields.
 
