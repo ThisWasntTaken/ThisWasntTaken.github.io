@@ -5,7 +5,7 @@ to:    July 2021
 ---
 
 Integrated Master of Technology in Computer Science.<br>
-CGPA - 3.92 / 4.0 - <a target="_blank" rel="noopener noreferrer" href="{{site.url}}{{site.baseurl}}/assets/pdf/transcript.pdf">Transcript</a>
+GPA - 3.92 / 4.0.
 
 <h1><b>Course Work</b></h1>
 <h4>Theory and Systems</h4>
