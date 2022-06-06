@@ -1,6 +1,6 @@
 ---
 title: E-Commerce Bargaining Agent
-role: 7th Semester - Artificial Intelligence course
+role: CS 604 - Artificial Intelligence, IIIT-B
 from: Aug 2019
 to: Dec 2019
 code:

@@ -1,6 +1,6 @@
 ---
 title: Open Set Recognition Methods for Microscopic Urinalysis
-role: Research Intern - Computational Sciences Laboratory
+role: Research Intern - Computational Sciences Laboratory, IIIT-B
 from: Jan 2019
 to: Jul 2019
 code:

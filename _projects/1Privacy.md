@@ -1,6 +1,6 @@
 ---
 title: Privacy-aware Dynamic Access-control Mechanism
-role: 9th Semester - Capstone project
+role: Capstone project, IIIT-B
 from: Sep 2020
 to: Dec 2020
 code:

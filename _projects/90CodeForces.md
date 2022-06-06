@@ -1,6 +1,6 @@
 ---
 title: CodeForces Rating Predictor
-role: 5th Semester - Machine Learning course
+role: GEN 511 - Machine Learning, IIIT-B
 from: Sep 2018
 to: Nov 2018
 code:

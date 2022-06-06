@@ -1,6 +1,6 @@
 ---
 title: Image Processing Tookit
-role: 3rd Semester - Programming course
+role: ESS 201 - Programming II, IIIT-B
 from: Oct 2017
 to: Dec 2017
 code: https://github.com/ThisWasntTaken/Image-Processing-Toolkit-C-Project

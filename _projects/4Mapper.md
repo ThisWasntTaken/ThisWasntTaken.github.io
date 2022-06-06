@@ -1,6 +1,6 @@
 ---
 title: Mapper - Topological Data Analysis
-role: 8th Semester - Computational Topology course
+role: CS/DS 815 - Topological Data Analysis, IIIT-B
 from: Mar 2020
 to: Apr 2020
 code: https://github.com/ThisWasntTaken/Topology-Mapper
