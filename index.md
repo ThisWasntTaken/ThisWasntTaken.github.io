@@ -11,3 +11,15 @@ I am a graduate student pursuing a Master's degree in Computer Science at <a tar
 I am looking for internship opportunities for the summer of 2023 and for full-time positions after I graduate.
 
 <a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button">Resume</button></a>
+
+{% for education in site.education %}
+  <div class="education">
+    <h3>{{education.title}}</h3>
+    {% if education.from and education.to %}
+      <i>{{ education.from }} - {{ education.to }}</i>
+    {% endif %}
+    <p>
+        {{ education.content }}
+    </p>
+  </div>
+{% endfor %}
