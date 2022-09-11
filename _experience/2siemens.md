@@ -11,5 +11,5 @@ tech:
     - Scikit Learn
 ---
 
-* Implemented a pipeline to predict the onset of Sepsis in ICU patients using <b>deep learning</b>, specifically LSTMs.
-* The model's performance <b>exceeded 87\% on Accuracy, F1-Score, Specificity, and Sensitivity metrics</b>.
+* Implemented a pipeline to predict the onset of Sepsis in ICU patients using deep learning, specifically LSTMs.
+* The model's performance exceeded 87% on Accuracy, F1-Score, Specificity, and Sensitivity metrics.
