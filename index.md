@@ -15,8 +15,12 @@ I am a graduate student pursuing a Master's degree in Computer Science at <a tar
 {% for experience in site.experience %}
   <div class="experience">
     <h4><b>{{experience.title}}</b></h4>
-    <i>{{ experience.from }} - {{ experience.to }}</i>
-    {{ experience.content }}
+    {% if experience.from and experience.to %}
+      <i>{{ experience.from }} - {{ experience.to }}</i>
+    {% endif %}
+    <p>
+      {{ experience.content }}
+    </p>
     {% for tech in experience.tech %}
       <span class="badge badge-dark">{{ tech }}</span>
     {% endfor %}
@@ -31,7 +35,7 @@ I am a graduate student pursuing a Master's degree in Computer Science at <a tar
       <i>{{ education.from }} - {{ education.to }}</i>
     {% endif %}
     <p>
-        {{ education.content }}
+      {{ education.content }}
     </p>
   </div>
 {% endfor %}
