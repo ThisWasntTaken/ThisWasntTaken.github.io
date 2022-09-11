@@ -27,3 +27,9 @@ I am a graduate student pursuing a Master's degree in Computer Science at <a tar
 <h3><b>Publications</b></h3>
 * <b>Ananth Shreekumar</b>, Biswesh Mohapatra, and Shrisha Rao. 2020. Incorporating Autonomous Bargaining Capabilities into E-Commerce Systems. In <em>Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents (IVA '20)</em>. Association for Computing Machinery, New York, NY, USA, Article 51, 1–8. DOI: <a href="https://doi.org/10.1145/3383652.3423865">10.1145/3383652.3423865</a>
 * Tarun Dutt, G.N.S. Prasanna, T.R. Dastidar and <b>Ananth Shreekumar</b>. Towards Artifact Rejection in Microscopic Urinalysis. In <em>Medical Imaging meets NeurIPS 2019 workshop, 33rd Conference on Neural Information Processing Systems</em>. 14th Dec, 2019.<a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/nips_openset.pdf">[pdf]</a>
+
+<h3><b>Relevant Course Work</b></h3>
+<h4>Theory and Systems</h4>
+Data Structures and Algorithms • Database Systems • Design and Analysis of Algorithms • Operating Systems • Software Engineering • Programming Languages • Introduction to Automata Theory and Computability • Computer Networks
+<h4>Data Science and Machine Learning</h4>
+Machine Learning • Mathematics for Machine Learning • Automatic Speech Recognition • Visual Recognition • Learning and Cognitive Systems: An Optimization Perspective • Reinforcement Learning • Artificial Intelligence
