@@ -16,9 +16,10 @@ I am a graduate student pursuing a Master's degree in Computer Science at <a tar
   <div class="experience">
     <h4><b>{{experience.title}}</b></h4>
     <i>{{ experience.from }} - {{ experience.to }}</i>
-    <p>
-        {{ experience.content }}
-    </p>
+    {{ experience.content }}
+    {% for tech in experience.tech %}
+      <span class="badge badge-dark">{{ tech }}</span>
+    {% endfor %}
   </div>
 {% endfor %}
 
