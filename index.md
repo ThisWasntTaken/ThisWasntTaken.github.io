@@ -8,6 +8,8 @@ title: Hello there! I'm Ananth.
 
 I am a graduate student pursuing my master of science degree in computer science at <a target="_blank" rel="noopener noreferrer" href="https://www.purdue.edu/">Purdue University</a>. Before that, I obtained my integrated master of technology degree in computer science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology Bangalore</a>.
 
-__I am looking for internship opportunities for the summer of 2023 and for full-time positions after I graduate.__
+<div class="alert alert-success">
+  <i class="fas fa-lightbulb"></i> I am looking for internship opportunities for the summer of 2023 and for full-time positions after I graduate.
+</div>
 
 <a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button">Resume</button></a>
