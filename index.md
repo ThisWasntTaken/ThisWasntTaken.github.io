@@ -12,4 +12,4 @@ I am a graduate student pursuing my master of science degree in computer science
   I am looking for an internship for summer 2023 and for full-time positions after I graduate.
 </div>
 
-<a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button"><i class="fa-solid fa-download"></i> Résumé</button></a>
+<a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button"><i class="fa fa-download"></i> Résumé</button></a>
