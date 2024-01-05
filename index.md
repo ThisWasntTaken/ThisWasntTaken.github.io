@@ -8,8 +8,4 @@ title: Hello there! I'm Ananth.
 
 I am a graduate student pursuing my master of science degree in computer science at <a target="_blank" rel="noopener noreferrer" href="https://www.purdue.edu/">Purdue University</a>. Before that, I obtained my integrated master of technology degree in computer science at the <a target="_blank" rel="noopener noreferrer" href="https://www.iiitb.ac.in/">International Institute of Information Technology Bangalore</a>.
 
-<div class="alert alert-success">
-  I am looking for full-time positions for when I graduate in December 2023.
-</div>
-
 <a target="_blank" rel="noopener noreferrer" href="{{ site.baseurl }}{{ site.url }}/assets/pdf/resume.pdf"><button class="button">Download Résumé</button></a>
